@@ -21,6 +21,7 @@ namespace iFINANCE
             //Application.Run(new iFINANCE());
             //Application.Run(new admin()); test
             Application.Run(new login_screen());
+
         }
 
 

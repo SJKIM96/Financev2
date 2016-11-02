@@ -29,44 +29,49 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login_screen));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Username = new System.Windows.Forms.TextBox();
+            this.Password = new System.Windows.Forms.TextBox();
+            this.Login_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // Username
             // 
-            this.textBox1.Location = new System.Drawing.Point(45, 83);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Username";
+            this.Username.Location = new System.Drawing.Point(45, 83);
+            this.Username.Name = "Username";
+            this.Username.Size = new System.Drawing.Size(100, 20);
+            this.Username.TabIndex = 0;
+            this.Username.Text = "Username";
+            this.Username.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Username_MouseClick_1);
+            this.Username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Username_KeyPress);
             // 
-            // textBox2
+            // Password
             // 
-            this.textBox2.Location = new System.Drawing.Point(45, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "Password";
+            this.Password.Location = new System.Drawing.Point(45, 105);
+            this.Password.Name = "Password";
+            this.Password.Size = new System.Drawing.Size(100, 20);
+            this.Password.TabIndex = 1;
+            this.Password.Text = "Password";
+            this.Password.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Password_MouseClick);
+            this.Password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Password_KeyPress);
             // 
-            // button1
+            // Login_button
             // 
-            this.button1.Location = new System.Drawing.Point(151, 79);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 46);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Login_button.Location = new System.Drawing.Point(151, 79);
+            this.Login_button.Name = "Login_button";
+            this.Login_button.Size = new System.Drawing.Size(75, 46);
+            this.Login_button.TabIndex = 2;
+            this.Login_button.Text = "Login";
+            this.Login_button.UseVisualStyleBackColor = true;
+            this.Login_button.Click += new System.EventHandler(this.button1_Click);
             // 
             // login_screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Login_button);
+            this.Controls.Add(this.Password);
+            this.Controls.Add(this.Username);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "login_screen";
             this.Text = "login_screen";
@@ -77,8 +82,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox Username;
+        private System.Windows.Forms.TextBox Password;
+        private System.Windows.Forms.Button Login_button;
     }
 }

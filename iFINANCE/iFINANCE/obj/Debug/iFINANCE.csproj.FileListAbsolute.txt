@@ -23,3 +23,9 @@ C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\obj\Debug\iFINANCE.iFINA
 C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\obj\Debug\iFINANCE.Properties.Resources.resources
 C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\obj\Debug\iFINANCE.csproj.GenerateResource.Cache
 C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\obj\Debug\iFINANCE.login_screen.resources
+C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\bin\Debug\data.mdf
+C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\bin\Debug\data_log.ldf
+C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\bin\Debug\EntityFramework.dll
+C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\bin\Debug\EntityFramework.xml
+C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\bin\Debug\EntityFramework.SqlServer.xml
