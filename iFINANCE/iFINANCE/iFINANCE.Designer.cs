@@ -32,7 +32,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.a1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageGroupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.funcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.financialReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,8 +43,6 @@
             this.tileHorizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileVerticleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.manageGroupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,6 +79,13 @@
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
+            // changePasswordToolStripMenuItem
+            // 
+            this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
+            this.changePasswordToolStripMenuItem.Text = "Change Password";
+            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
+            // 
             // a1ToolStripMenuItem
             // 
             this.a1ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -87,6 +94,12 @@
             this.a1ToolStripMenuItem.Size = new System.Drawing.Size(97, 20);
             this.a1ToolStripMenuItem.Text = "Custom Group";
             this.a1ToolStripMenuItem.Click += new System.EventHandler(this.a1ToolStripMenuItem_Click);
+            // 
+            // manageGroupToolStripMenuItem
+            // 
+            this.manageGroupToolStripMenuItem.Name = "manageGroupToolStripMenuItem";
+            this.manageGroupToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.manageGroupToolStripMenuItem.Text = "Manage Groups";
             // 
             // toolStripMenuItem1
             // 
@@ -120,21 +133,21 @@
             // cascadeToolStripMenuItem
             // 
             this.cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
-            this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.cascadeToolStripMenuItem.Text = "Cascade";
             this.cascadeToolStripMenuItem.Click += new System.EventHandler(this.cascadeToolStripMenuItem_Click);
             // 
             // tileHorizontalToolStripMenuItem
             // 
             this.tileHorizontalToolStripMenuItem.Name = "tileHorizontalToolStripMenuItem";
-            this.tileHorizontalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.tileHorizontalToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.tileHorizontalToolStripMenuItem.Text = "TileHorizontal";
             this.tileHorizontalToolStripMenuItem.Click += new System.EventHandler(this.tileHorizontalToolStripMenuItem_Click);
             // 
             // tileVerticleToolStripMenuItem
             // 
             this.tileVerticleToolStripMenuItem.Name = "tileVerticleToolStripMenuItem";
-            this.tileVerticleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.tileVerticleToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.tileVerticleToolStripMenuItem.Text = "TileVertical";
             this.tileVerticleToolStripMenuItem.Click += new System.EventHandler(this.tileVerticleToolStripMenuItem_Click);
             // 
@@ -145,24 +158,10 @@
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // changePasswordToolStripMenuItem
-            // 
-            this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
-            this.changePasswordToolStripMenuItem.Text = "Change Password";
-            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
-            // 
-            // manageGroupToolStripMenuItem
-            // 
-            this.manageGroupToolStripMenuItem.Name = "manageGroupToolStripMenuItem";
-            this.manageGroupToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.manageGroupToolStripMenuItem.Text = "Manage Groups";
-            // 
             // iFINANCE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::iFINANCE.Properties.Resources.western_background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(766, 439);
             this.Controls.Add(this.menuStrip1);

@@ -60,6 +60,12 @@
     <Compile Include="iFINANCE.Designer.cs">
       <DependentUpon>iFINANCE.cs</DependentUpon>
     </Compile>
+    <Compile Include="login_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_screen.Designer.cs">
+      <DependentUpon>login_screen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -86,13 +92,20 @@
     <EmbeddedResource Include="iFINANCE.resx">
       <DependentUpon>iFINANCE.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="login_screen.resx">
+      <DependentUpon>login_screen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\western+background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

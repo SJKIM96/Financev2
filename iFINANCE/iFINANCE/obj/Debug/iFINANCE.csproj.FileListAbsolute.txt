@@ -22,3 +22,4 @@ C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\obj\Debug\iFINANCE.Finan
 C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\obj\Debug\iFINANCE.iFINANCE.resources
 C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\obj\Debug\iFINANCE.Properties.Resources.resources
 C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\obj\Debug\iFINANCE.csproj.GenerateResource.Cache
+C:\Users\kim\Desktop\projects\Finance\iFINANCE\iFINANCE\obj\Debug\iFINANCE.login_screen.resources
